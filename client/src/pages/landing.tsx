@@ -16,11 +16,11 @@ export default function Landing() {
       <div className="max-w-md mx-auto bg-white min-h-screen">
         {/* Hero Section */}
         <div className="px-6 py-12 text-center">
-          <div className="w-24 h-24 bg-paw-cream rounded-3xl flex items-center justify-center mx-auto mb-6 p-2">
+          <div className="w-24 h-24 rounded-3xl overflow-hidden mx-auto mb-6 shadow-xl border-2 border-white bg-gradient-to-br from-paw-cream via-white to-paw-cream/50">
             <img 
               src={pawConnectLogo} 
               alt="PawConnect Logo" 
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover"
             />
           </div>
           

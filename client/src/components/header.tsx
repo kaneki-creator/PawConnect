@@ -14,11 +14,13 @@ export default function Header() {
       {/* Logo and Branding */}
       <div className="flex items-center justify-between mb-3">
         <div className="flex items-center space-x-3">
-          <img 
-            src={pawConnectLogo} 
-            alt="PawConnect Logo" 
-            className="w-12 h-12 object-contain"
-          />
+          <div className="w-12 h-12 rounded-2xl overflow-hidden bg-gradient-to-br from-paw-cream to-white shadow-sm border border-paw-light/20">
+            <img 
+              src={pawConnectLogo} 
+              alt="PawConnect Logo" 
+              className="w-full h-full object-cover"
+            />
+          </div>
           <div>
             <h1 className="text-paw-dark font-bold text-xl">PawConnect</h1>
             <p className="text-paw-light text-sm">At the Heart of Hills</p>
