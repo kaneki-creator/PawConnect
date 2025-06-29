@@ -168,7 +168,7 @@ export default function Home() {
           )}
         </div>
 
-        <BottNavigation />
+        <BottomNavigation />
 
         {/* Floating Action Button */}
         <button className="fixed bottom-20 right-4 w-14 h-14 bg-paw-orange text-white rounded-full flex items-center justify-center card-shadow">
