@@ -9,7 +9,7 @@ import PetCard from "@/components/pet-card";
 import PetDetailModal from "@/components/pet-detail-modal";
 import BottomNavigation from "@/components/bottom-navigation";
 import { Button } from "@/components/ui/button";
-import { Plus } from "lucide-react";
+import { Plus, MapPin } from "lucide-react";
 
 interface Pet {
   id: number;
@@ -113,6 +113,22 @@ export default function Home() {
         </div>
 
         <SearchFilter filters={filters} onFiltersChange={handleFilterChange} />
+
+        {/* Find Adoption Centers Feature */}
+        <div className="px-4 mb-6">
+          <div className="bg-gradient-to-r from-paw-orange to-paw-brown rounded-2xl p-4 text-white">
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="font-bold text-lg mb-1">Find Adoption Centers</h3>
+                <p className="text-white/90 text-sm">Discover nearby shelters and rescue centers</p>
+              </div>
+              <button className="bg-white/20 hover:bg-white/30 rounded-xl px-4 py-2 flex items-center space-x-2 transition-colors">
+                <MapPin size={16} />
+                <span className="text-sm font-medium">Near You</span>
+              </button>
+            </div>
+          </div>
+        </div>
 
         {/* Pet Grid */}
         <div className="px-4 pb-24">
