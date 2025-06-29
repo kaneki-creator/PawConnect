@@ -1,6 +1,6 @@
 import { useAuth } from "@/hooks/useAuth";
 import { Bell, User } from "lucide-react";
-import pawConnectLogo from "@assets/ChatGPT Image May 2, 2025, 06_49_52 AM_1751171914710.png";
+import pawConnectLogo from "@assets/Gemini_Generated_Image_ogsbfwogsbfwogsb_1751174714789.png";
 
 export default function Header() {
   const { user } = useAuth();
@@ -14,11 +14,11 @@ export default function Header() {
       {/* Professional Logo Header - Similar to Zomato */}
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 rounded-lg overflow-hidden bg-gradient-to-br from-paw-orange to-paw-brown shadow-sm">
+          <div className="w-8 h-8 rounded-lg overflow-hidden shadow-sm">
             <img 
               src={pawConnectLogo} 
               alt="PawConnect Logo" 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
           <h1 className="text-paw-dark font-bold text-lg">PawConnect</h1>

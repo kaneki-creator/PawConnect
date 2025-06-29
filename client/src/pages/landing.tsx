@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Heart, Users, Shield, MapPin } from "lucide-react";
-import pawConnectLogo from "@assets/ChatGPT Image May 2, 2025, 06_49_52 AM_1751171914710.png";
+import pawConnectLogo from "@assets/Gemini_Generated_Image_ogsbfwogsbfwogsb_1751174714789.png";
 
 export default function Landing() {
   const handleLogin = () => {
@@ -16,11 +16,11 @@ export default function Landing() {
       <div className="max-w-md mx-auto bg-white min-h-screen">
         {/* Hero Section */}
         <div className="px-6 py-12 text-center">
-          <div className="w-24 h-24 rounded-3xl overflow-hidden mx-auto mb-6 shadow-xl border-2 border-white bg-gradient-to-br from-paw-cream via-white to-paw-cream/50">
+          <div className="w-24 h-24 rounded-3xl overflow-hidden mx-auto mb-6 shadow-xl bg-white">
             <img 
               src={pawConnectLogo} 
               alt="PawConnect Logo" 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
           
